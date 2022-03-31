@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+    <div>
+        No.32 <br>
+        （js）リサイズをトリガーとしたスタイル変更<br>
+        No.31と違う点：リサイズ時に、要素のスタイル値を取得し、そのスタイルの条件に合った場合だけ処理を実行。<br>
+        リサイズをしている間には、画面幅の情報と、スタイルの情報を取得する関数が実行されるが、その後の関数（スタイル変更）は必要最低回数のみ実行される<br>
+
+    </div>
+    <div class="test">
+        <br>
+        やりたいこと：
+        cssによりデフォルト背景色↓<br>
+        jsにより、画面幅1000px未満の場合、背景色ピンクに。
+        1000px以上の時は背景色を水色に。
+
+        <br>
+        <br>
+        使用したjs<br>
+        ||<br>
+        getComputedStyle<br>
+        など
+
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+
+
+
+</body>
+
+
+
+
+
+
+
+</html>
